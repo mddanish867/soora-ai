@@ -19,7 +19,7 @@ export default function AuthForm() {
           </div>
   
           {/* Auth Form */}
-          <div className="z-10 w-full max-w-md bg-gray-800 rounded-lg shadow-lg p-6">
+          <div className="z-10 w-full max-w-md bg-gray-900 rounded-lg shadow-lg p-6">
             <div className="flex mb-4">
               <button
                 className={`flex-1 py-2 text-center ${
