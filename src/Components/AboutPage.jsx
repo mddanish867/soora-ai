@@ -18,7 +18,7 @@ export default function AboutPage() {
           {/* About content */}
           <div className="z-10 w-full max-w-4xl">
             <h1 className="text-4xl font-bold text-center mb-8">About Us</h1>
-            <div className="bg-gray-800 p-8 rounded-lg shadow-lg">
+            <div className="bg-transparent border-2 border-white p-8 rounded-lg shadow-lg">
               <p className="mb-6">
                 We are a team of passionate developers and innovators dedicated to creating cutting-edge solutions for the modern web. Our mission is to empower businesses and individuals with powerful, easy-to-use tools that drive growth and success.
               </p>
