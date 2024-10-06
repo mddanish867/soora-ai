@@ -8,7 +8,7 @@ const LandingPage = () => {
         navigate("/auth")
     }
   return (
-    <div className="md:container min-h-screen bg-gray-900 text-gray-200 font-mono">
+    <div className="min-h-screen bg-gray-900 text-gray-200 font-mono">
       <Header/>
 
       {/* Main content */}
