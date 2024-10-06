@@ -48,12 +48,12 @@ export default function AuthForm() {
                 <input
                   type="email"
                   placeholder="Email"
-                  className="w-full px-3 py-2 bg-gray-700 rounded border border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
+                  className="w-full px-3 py-2 bg-transparent rounded border border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
                 />
                 <input
                   type="password"
                   placeholder="Password"
-                  className="w-full px-3 py-2 bg-gray-700 rounded border border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
+                  className="w-full px-3 py-2 bg-transparent rounded border border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
                 />
                 <button
                   type="submit"
