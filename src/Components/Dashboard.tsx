@@ -136,9 +136,9 @@ export default function Dashboard() {
               {[
                 "Start a blog with Astro",
                 "Build a mobile app with NativeScript",
-                "Create a docs site with VitePress",
+                
                 "Scaffold UI with shadcn",
-                "Draft a presentation with Slidev",
+                
                 "Code a video with Remotion",
               ].map((option, index) => (
                 <button
