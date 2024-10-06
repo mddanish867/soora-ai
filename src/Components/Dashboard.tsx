@@ -40,7 +40,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
           </Link>
           <button
             onClick={toggleSidebar}
-            className="p-2 rounded-full hover:bg-gray-800 focus:outline-none hidden md:block"
+            className="p-2 rounded-full hover:bg-gray-900 focus:outline-none hidden md:block"
           >
             {isOpen ? <ChevronLeft size={24} /> : <ChevronRight size={24} />}
           </button>
@@ -51,7 +51,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
               <li key={index} className="mb-2">
                 <a
                   href="#"
-                  className="flex items-center p-4 hover:bg-gray-800 transition-colors duration-200"
+                  className="flex items-center p-4 hover:bg-gray-900 transition-colors duration-200"
                 >
                   <item.icon size={24} />
                   <span className={`ml-4 ${isOpen ? "" : "hidden"}`}>
@@ -65,7 +65,7 @@ const Sidebar = ({ isOpen, toggleSidebar }) => {
         <div className="p-4">
           <a
             href="#"
-            className="flex items-center hover:bg-gray-800 p-2 rounded transition-colors duration-200"
+            className="flex items-center hover:bg-gray-900 p-2 rounded transition-colors duration-200"
           >
             <User size={24} />
             <span className={`ml-4 ${isOpen ? "" : "hidden"}`}>Profile</span>
@@ -126,7 +126,7 @@ export default function Dashboard() {
             <p className="text-xl mb-8">
               Prompt, run, edit, and deploy full-stack web apps.
             </p>
-            <div className="bg-gray-800 rounded-lg p-4 mb-8 max-w-2xl mx-auto">
+            <div className="bg-gray-900 rounded-lg p-4 mb-8 max-w-2xl mx-auto">
               <textarea
                 placeholder="How can Bolt help you today?"
                 className="w-full h-32 bg-transparent border-none focus:outline-none text-white resize-none"
@@ -143,7 +143,7 @@ export default function Dashboard() {
               ].map((option, index) => (
                 <button
                   key={index}
-                  className="bg-gray-800 hover:bg-gray-700 text-white py-2 px-4 rounded-full transition-colors duration-200"
+                  className="bg-gray-900 hover:bg-gray-700 text-white py-2 px-4 rounded-full transition-colors duration-200"
                 >
                   {option}
                 </button>
@@ -153,10 +153,10 @@ export default function Dashboard() {
               or start a blank app with your favorite stack
             </p>
             <div className="flex flex-wrap justify-center gap-4 mt-12 text-blue-400">
-              {["S", "O", "O", "R", "A", "A", "I"].map((logo, index) => (
+              {["S", "O", "O", "R", "A", "I"].map((logo, index) => (
                 <div
                   key={index}
-                  className="w-10 h-10 bg-gray-800 rounded-md flex items-center justify-center"
+                  className="w-10 h-10 bg-gray-900 rounded-md flex items-center justify-center"
                 >
                   {logo}
                 </div>
