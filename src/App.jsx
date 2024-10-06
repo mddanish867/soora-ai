@@ -4,6 +4,7 @@ import AuthForm from "./Components/AuthForm";
 import PricingPage from "./Components/PricingPage";
 import ServicePage from "./Components/ServicePage";
 import AboutPage from "./Components/AboutPage";
+import Dashboard from "./Components/Dashboard";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
           <Route path="/pricing" element={<PricingPage />} />
           <Route path="/service" element={<ServicePage />} />
           <Route path="/about" element={<AboutPage />} />
+          <Route path="/dasboard" element={<Dashboard />} />
+
         </Routes>
       </Router>
     </>
