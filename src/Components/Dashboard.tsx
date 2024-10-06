@@ -135,7 +135,7 @@ export default function Dashboard() {
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               {[
                 "Start a blog with Astro",
-                "Build a mobile app with NativeScript",
+                
                 
                 "Scaffold UI with shadcn",
                 
