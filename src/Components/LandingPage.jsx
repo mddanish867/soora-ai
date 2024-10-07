@@ -97,7 +97,7 @@ const LandingPage = () => {
           />
         </div>
       </div>
-      <div>
+      <div className=-mt-28 md:mt:0>
         <TrustedClient/>
       </div>
     </div>
