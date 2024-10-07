@@ -99,8 +99,8 @@ const LandingPage = () => {
         </div>
 
       </div>
-<div>
-        <TrustedClient className=mt-10/>
+<div className=mt-10>
+        <TrustedClient />
       </div
       
     </div>
