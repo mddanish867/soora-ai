@@ -135,10 +135,9 @@ export default function Dashboard() {
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               {[
                 "Start a blog with Astro",
-                
-                
+
                 "Scaffold UI with shadcn",
-                
+
                 "Code a video with Remotion",
               ].map((option, index) => (
                 <button

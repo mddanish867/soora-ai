@@ -1,34 +1,45 @@
-
-import React, { useState } from 'react'
-import {Link} from 'react-router-dom'
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
+    setIsMenuOpen(!isMenuOpen);
+  };
 
   return (
     <header className="p-4 border-b border-gray-700">
       <div className="flex justify-between items-center">
-        <Link to="/" className="text-3xl font-semibold text-blue-400 hover:text-blue-300 transition-colors">
+        <Link
+          to="/"
+          className="text-3xl font-semibold text-blue-400 hover:text-blue-300 transition-colors"
+        >
           Soora.ai
         </Link>
         <nav className="hidden md:flex gap-x-28 items-center">
           <ul className="flex space-x-4">
             <li>
-              <Link to="/pricing" className="hover:text-blue-400 transition-colors">
+              <Link
+                to="/pricing"
+                className="hover:text-blue-400 transition-colors"
+              >
                 Pricing
               </Link>
             </li>
             <li>
-              <Link to="/service" className="hover:text-blue-400 transition-colors">
+              <Link
+                to="/service"
+                className="hover:text-blue-400 transition-colors"
+              >
                 Service
               </Link>
             </li>
             <li>
-              <Link to="/about" className="hover:text-blue-400 transition-colors">
+              <Link
+                to="/about"
+                className="hover:text-blue-400 transition-colors"
+              >
                 About
               </Link>
             </li>
@@ -54,7 +65,11 @@ const Header = () => {
             viewBox="0 0 24 24"
             stroke="currentColor"
           >
-            <path d={isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}></path>
+            <path
+              d={
+                isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
+              }
+            ></path>
           </svg>
         </button>
       </div>
@@ -62,22 +77,38 @@ const Header = () => {
         <nav className="mt-4 md:hidden">
           <ul className="flex flex-col space-y-2">
             <li>
-              <Link to="/pricing" className="block hover:text-blue-400 transition-colors" onClick={toggleMenu}>
+              <Link
+                to="/pricing"
+                className="block hover:text-blue-400 transition-colors"
+                onClick={toggleMenu}
+              >
                 Pricing
               </Link>
             </li>
             <li>
-              <Link to="/service" className="block hover:text-blue-400 transition-colors" onClick={toggleMenu}>
+              <Link
+                to="/service"
+                className="block hover:text-blue-400 transition-colors"
+                onClick={toggleMenu}
+              >
                 Service
               </Link>
             </li>
             <li>
-              <Link to="/about" className="block hover:text-blue-400 transition-colors" onClick={toggleMenu}>
+              <Link
+                to="/about"
+                className="block hover:text-blue-400 transition-colors"
+                onClick={toggleMenu}
+              >
                 About
               </Link>
             </li>
             <li>
-              <Link to="/auth" className="block text-blue-400 hover:text-blue-300 transition-colors" onClick={toggleMenu}>
+              <Link
+                to="/auth"
+                className="block text-blue-400 hover:text-blue-300 transition-colors"
+                onClick={toggleMenu}
+              >
                 Login →
               </Link>
             </li>
@@ -85,7 +116,7 @@ const Header = () => {
         </nav>
       )}
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
