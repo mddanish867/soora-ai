@@ -96,7 +96,7 @@ const LandingPage = () => {
             className="flex items-center mx-auto"
           />
 <div>
-        <TrustedClient/>
+        <TrustedClient className=mt-10/>
       </div>
         </div>
       </div>
