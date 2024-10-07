@@ -26,7 +26,7 @@ export default function ServicePage() {
                 { title: 'Consulting', description: 'Expert advice to optimize your development processes.' },
                 { title: 'Support', description: '24/7 technical support to keep your systems running smoothly.' },
               ].map((service) => (
-                <div key={service.title} className="bg-gray-800 p-6 rounded-lg shadow-lg">
+                <div key={service.title} className="bg-transparent border-2 border-white p-6 rounded-lg shadow-lg">
                   <h2 className="text-2xl font-bold mb-4">{service.title}</h2>
                   <p className="mb-6">{service.description}</p>
                   <button className="py-2 px-4 bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors">

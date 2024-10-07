@@ -19,7 +19,7 @@ export default function AuthForm() {
           </div>
   
           {/* Auth Form */}
-          <div className="z-10 w-full max-w-md bg-gray-800 rounded-lg shadow-lg p-6">
+          <div className="z-10 w-full max-w-md bg-transparent border-2 border-white rounded-lg shadow-lg p-6">
             <div className="flex mb-4">
               <button
                 className={`flex-1 py-2 text-center ${
@@ -48,12 +48,12 @@ export default function AuthForm() {
                 <input
                   type="email"
                   placeholder="Email"
-                  className="w-full px-3 py-2 bg-gray-700 rounded border border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
+                  className="w-full px-3 py-2 bg-transparent rounded border border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
                 />
                 <input
                   type="password"
                   placeholder="Password"
-                  className="w-full px-3 py-2 bg-gray-700 rounded border border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
+                  className="w-full px-3 py-2 bg-transparent rounded border border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
                 />
                 <button
                   type="submit"
@@ -69,22 +69,22 @@ export default function AuthForm() {
                 <input
                   type="text"
                   placeholder="Username"
-                  className="w-full px-3 py-2 bg-gray-700 rounded border border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
+                  className="w-full px-3 py-2 bg-transparent rounded border border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
                 />
                 <input
                   type="email"
                   placeholder="Email"
-                  className="w-full px-3 py-2 bg-gray-700 rounded border border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
+                  className="w-full px-3 py-2 bg-transparent rounded border border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
                 />
                 <input
                   type="password"
                   placeholder="Password"
-                  className="w-full px-3 py-2 bg-gray-700 rounded border border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
+                  className="w-full px-3 py-2 bg-transparent rounded border border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
                 />
                 <input
                   type="password"
                   placeholder="Confirm Password"
-                  className="w-full px-3 py-2 bg-gray-700 rounded border border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
+                  className="w-full px-3 py-2 bg-transparent rounded border border-gray-600 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-400"
                 />
                 <button
                   type="submit"
