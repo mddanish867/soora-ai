@@ -87,7 +87,7 @@ const LandingPage = () => {
           </div>
         </div>
       </main>
-      <div className="flex justify-center items-center h-screen -mt-44">
+      <div className="flex justify-center items-center h-screen md:-mt-44 -mt-96">
         <div className="flex items-center text-center shadow-inherit md:w-3/4 border-2 border-blue-400 rounded-xl">
           <img
             src="/soora-ai.png"
