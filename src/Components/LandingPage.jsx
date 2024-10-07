@@ -31,13 +31,13 @@ const LandingPage = () => {
                         >
                             {`const ${["foo", "bar", "baz", "qux"][i % 4]} = ${Math.random()
                                 .toString(36)
-                                .substring(7)};`.repeat(12)}
+                                .substring(7)};`.repeat(14)}
                         </div>
                     ))}
                 </div>
 
                 {/* Buttons */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 z-10 mt-32">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 z-10 ">
                     <button className="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition-colors">
                         Join the Beta
                     </button>
@@ -83,8 +83,8 @@ const LandingPage = () => {
                 </div>
                 
             </main>
-            <div className="flex justify-center items-center h-screen">
-  <div className="flex items-center text-center shadow-2xl md:w-3/4 border-2 border-blue-400 rounded-xl">
+            <div className="flex justify-center items-center h-screen -mt-44">
+  <div className="flex items-center text-center shadow-inherit md:w-3/4 border-2 border-blue-400 rounded-xl">
     <img src="/soora-ai.png" alt="soora dashboard" className="flex items-center mx-auto"/>
   </div>
 </div>
