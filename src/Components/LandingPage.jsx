@@ -95,11 +95,12 @@ const LandingPage = () => {
             alt="soora dashboard"
             className="flex items-center mx-auto"
           />
-        </div>
-      </div>
-      <div className=-mt-96 md:mt:0>
+<div>
         <TrustedClient/>
       </div>
+        </div>
+      </div>
+      
     </div>
   );
 };
