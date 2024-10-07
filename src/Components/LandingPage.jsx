@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
+import TrustedClient from "./TrustedClient";
 
 const LandingPage = () => {
   const router = useNavigate();
@@ -95,6 +96,9 @@ const LandingPage = () => {
             className="flex items-center mx-auto"
           />
         </div>
+      </div>
+      <div>
+        <TrustedClient/>
       </div>
     </div>
   );

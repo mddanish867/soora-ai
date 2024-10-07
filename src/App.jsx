@@ -5,6 +5,7 @@ import PricingPage from "./Components/PricingPage";
 import ServicePage from "./Components/ServicePage";
 import AboutPage from "./Components/AboutPage";
 import Dashboard from "./Components/Dashboard";
+import TrustedClient from "./Components/TrustedClient";
 
 function App() {
   return (
