@@ -128,7 +128,7 @@ export default function Dashboard() {
             </p>
             <div className="bg-gray-800 rounded-lg p-4 mb-8 max-w-2xl mx-auto">
               <textarea
-                placeholder="How can Bolt help you today?"
+                placeholder="How can Soora help you today?"
                 className="w-full h-32 bg-transparent border-none focus:outline-none text-white resize-none"
               />
             </div>
