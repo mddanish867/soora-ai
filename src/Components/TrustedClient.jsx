@@ -39,7 +39,7 @@ export default function TrustedClient() {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            <Icon className="w-8 h-8 text-gray-600" />
+            <Icon className="w-8 h-8 text-blue-400" />
           </motion.div>
         ))}
       </motion.div>
