@@ -37,7 +37,7 @@ const LandingPage = () => {
                 </div>
 
                 {/* Buttons */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 z-10">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 z-10 mt-32">
                     <button className="bg-blue-500 text-white px-6 py-2 rounded hover:bg-blue-600 transition-colors">
                         Join the Beta
                     </button>
@@ -79,8 +79,13 @@ const LandingPage = () => {
                             />
                         </svg>
                     </div>
+                    
                 </div>
+                <div className="flex items-center  shadow-2xl w-3/4 mt-44 border-2 border-blue-400 rounded-xl">
+                <img src="/soora-ai.png" alt="soora dashboard"/>
+            </div>
             </main>
+            
         </div>
     );
 };
