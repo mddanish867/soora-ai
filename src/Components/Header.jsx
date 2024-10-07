@@ -41,7 +41,7 @@ const Header = () => {
           Login →
         </Link>
         <button
-          className="md:hidden text-gray-200 hover:text-blue-400 transition-colors"
+          className="md:hidden text-blue-400 hover:text-blue-300 transition-colors"
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >
